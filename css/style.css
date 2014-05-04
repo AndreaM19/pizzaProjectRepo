@@ -1,0 +1,173 @@
+html, body {
+    height: 100%;
+}
+
+/*Setting for navbar distance from top*/
+body {
+  padding-top: 70px;
+}
+
+/*Style for social logos*/
+.socials IMG{
+	height:30px;
+	margin-right:-20px;
+	margin-bottom:-15px;
+	margin-top:-15px;
+}
+
+/*Google Play store*/
+.googlePlay{
+	max-width:320px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.googlePlay img{
+	width:130px;
+}
+
+/*Main container displayer*/
+.mainContainer {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+}
+
+/*Footer*/
+.footer, .push {
+	height: 50px;
+	clear: both;
+}
+
+.footer{
+	text-align:center;
+	font-size:12px;
+}
+
+/*Navbar rewrite*/
+.navbar-tomato {
+  	background-color: #C00;
+	border-color: solid 1px #FFF;
+	width:0 auto;
+}
+
+.navbar-tomato .navbar-brand {
+  	color: #FFF;
+}
+.navbar-tomato .navbar-brand:hover,
+.navbar-tomato .navbar-brand:focus {
+  	color: #111;;
+  	background-color: transparent;
+}
+.navbar-tomato .navbar-text {
+  	color: #FFF;
+}
+.navbar-tomato .navbar-nav > li > a {
+  	color: #FFF;
+}
+.navbar-tomato .navbar-nav > li > a:hover,
+.navbar-tomato .navbar-nav > li > a:focus {
+  	color: #111;
+  	background-color: transparent;
+}
+.navbar-tomato .navbar-nav > .active > a,
+.navbar-tomato .navbar-nav > .active > a:hover,
+.navbar-tomato .navbar-nav > .active > a:focus {
+    color: #111;
+    background-color: #FBB;
+}
+.navbar-tomato .navbar-nav > .disabled > a,
+.navbar-tomato .navbar-nav > .disabled > a:hover,
+.navbar-tomato .navbar-nav > .disabled > a:focus {
+  	color: #111;
+  	background-color: transparent;
+}
+.navbar-tomato .navbar-toggle {
+  	border-color: #ddd;
+}
+.navbar-tomato .navbar-toggle:hover,
+.navbar-tomato .navbar-toggle:focus {
+  	background-color: #ddd;
+}
+.navbar-tomato .navbar-toggle .icon-bar {
+  	background-color: #888;
+}
+.navbar-tomato .navbar-collapse,
+.navbar-tomato .navbar-form {
+  	border-color: #e7e7e7;
+}
+.navbar-tomato .navbar-nav > .open > a,
+.navbar-tomato .navbar-nav > .open > a:hover,
+.navbar-tomato .navbar-nav > .open > a:focus {
+  	color: #111;
+  	background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-tomato .navbar-nav .open .dropdown-menu > li > a {
+    	color: #FFF;
+  }
+  .navbar-tomato .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-tomato .navbar-nav .open .dropdown-menu > li > a:focus {
+    	color: #333;
+    	background-color: transparent;
+  }
+  .navbar-tomato .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-tomato .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-tomato .navbar-nav .open .dropdown-menu > .active > a:focus {
+    	color: #000;
+    	background-color: #FBB;
+  }
+  .navbar-tomato .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-tomato .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-tomato .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    	color: #ccc;
+    	background-color: transparent;
+  }
+}
+.navbar-tomato .navbar-link {
+  	color: #777;
+}
+.navbar-tomato .navbar-link:hover {
+  	color: #333;
+}
+
+/*Central Pizza Image*/
+.pizzaSelector IMG{
+	width:450px;
+}
+
+@media (max-width: 767px) {
+	.pizzaSelector IMG{
+		width:300px;
+	}
+}
+
+@media (max-width: 450px) {
+	.pizzaSelector IMG{
+		width:200px;
+	}
+}
+
+/*MISC*/
+.backgroundWhite{
+	background-color:#FFF;
+}
+
+.backgroundTomato{
+	background-color:#C00;
+}
+
+.textLight{
+	color:#FFF;
+}
+
+.alignCenter{
+	text-align:center;
+}
+
+.greenLine{
+  	background-color:#006600;
+	height:6px;
+	margin-top:0px;
+}
